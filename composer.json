@@ -1,0 +1,6 @@
+{
+    "require": {
+        "sastrawi/sastrawi": "~1",
+        "twbs/bootstrap": "^4.5"
+    }
+}
