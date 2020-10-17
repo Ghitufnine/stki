@@ -1,5 +1,11 @@
-<table border=1 cellpadding=5 cellspacing=0>
-<tr>
+<?php
+    $title = "Data Stopword";
+    include "header.php";
+?>
+<div class="container">
+    <div class="table-responsive">
+        <table class="table table-hover table-striped">
+        <tr>
 <td>No</td>
 <td>Data Stopword</td>
 
@@ -21,3 +27,6 @@ $no++;
 //echo "ID: $numrows " . " Token : $row[term] " . " = $row[frequency]<br> ";
 }
 ?>
+        </table>
+    </div>
+</div>

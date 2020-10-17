@@ -29,7 +29,7 @@
         <hr>
         <div align=center>
             <a href="index.php">Home</a> |
-            |<a href="koneksi.php">Koneksi</a> |
+            <a href="koneksi.php">Koneksi</a> |
             <a href="buatberita.php">Buat Dokumen</a> |
             <a href="lihatberita.php">Lihat Dokumen</a> |
             <a href="lowercase.php">Lower Case Dokumen</a> |
@@ -39,6 +39,9 @@
             <a href="datastopword.php">Data Stopword</a> |
             <a href="prosesstopword.php">Proses Stopword</a> |
             <a href="prosesstemming.php">Proses Stemming</a> |
+            <a href="tf.php">Term Frequency</a> |
+            <a href="idf.php">Invers DOcument Frequency</a> |
+            <a href="tfidf.php">TF.IDF</a> |
         </div>
     </div>
         <hr />

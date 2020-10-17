@@ -1,5 +1,11 @@
-<table border=1 cellpadding=5 cellspacing=0>
-<tr>
+<?php
+$title = "Hapus Tanda Baca";
+include "header.php";
+?>
+<div class="container">
+    <div class="table-responisve">
+        <table class="table table-striped">
+        <tr>
 <td>ID</td>
 <td>Judul</td>
 <td>Isi</td>
@@ -35,3 +41,6 @@ $no++;
 }
 
 ?>
+        </table>
+    </div>
+</div>
