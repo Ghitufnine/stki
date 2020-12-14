@@ -1,4 +1,6 @@
 <?php
+$title = "Search 2";
+include 'header.php';
 include "index.php";
 include "koneksi.php";
 ?>

@@ -1,6 +1,7 @@
 <?php
 include "index.php";
 include "koneksi.php";
+include "header.php";
 
 echo "<p align=center></p";
 $keyword = $_GET["keyword"]; // ambil keyword
@@ -28,7 +29,7 @@ $keyword = $_GET["keyword"]; // ambil keyword
    
 	// tampilkan kotak pencarian dan jumlah hasil pencarian
 
-	  echo "<br /><br><table><tr><td></td><td><form action='searchs2.php' method='GET'><input type='text' onclick=value='' size='50' name='keyword' value='$keyword' style='width: 500px; height: 30px; font-size: 16px;'> <input type='submit' value='Search'></form></td></tr></table>";
+	  echo "<br /><br><table class='table text-center'><tr><td></td><td><form action='searchs2.php' method='GET'><input type='text' onclick=value='' size='50' name='keyword' value='$keyword' style='width: 500px; height: 30px; font-size: 16px;'> <input type='submit' value='Search'></form></td></tr></table>";
 // select distinct utk mengambil berita agar tdk duplikasi
 ?>
 
