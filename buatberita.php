@@ -26,17 +26,17 @@ include 'koneksi.php';
 	</form>
 
 	<?php
-	if(isset($_POST['BtnAdd'])){ // jika tombol 'BtnAdd' di klik, lakukan proses:
-		// ambil judul, isi berita, url
-		$judul1 = $_POST['judul'];
-		$isi1 = $_POST['isi'];
-		$url1 = $_POST['url'];
-		$id1 = str_replace(" ", "_", $judul1); // replace spasi dgn '_' utk dijadikan id_berita/
+if(isset($_POST['BtnAdd'])){ // jika tombol 'BtnAdd' di klik, lakukan proses:
+// ambil judul, isi berita, url
+$judul1 = $_POST['judul'];
+$isi1 = $_POST['isi'];
+$url1 = $_POST['url'];
+$id1 = str_replace(" ", "_", $judul1); // replace spasi dgn '_' utk dijadikan id_berita/
 
-	// masukkan ke database
-	$query = "INSERT INTO berita VALUES ('0','$id1','$judul1','$isi1','$url1')"; 
-	$insert_query  = mysqli_query($koneksi,$query);
-	}
+// masukkan ke database
+		$query = "INSERT INTO berita VALUES ('$id1','$judul1','$isi1','$url1')"; 
+		$insert_query  = mysqli_query($koneksi,$query);
+}
 
 ?>
 </div>

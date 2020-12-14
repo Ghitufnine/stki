@@ -42,6 +42,9 @@
             <a href="tf.php">Term Frequency</a> |
             <a href="idf.php">Invers DOcument Frequency</a> |
             <a href="tfidf.php">TF.IDF</a> |
+            <a href="search.php">Search1</a> |
+            <a href="search1.php">Search2</a> |
+            <a href="search2.php">Search3</a> |
         </div>
     </div>
         <hr />
